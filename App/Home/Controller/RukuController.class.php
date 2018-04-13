@@ -92,7 +92,7 @@ class RukuController extends CommonController {
 
 	}
 
-	public function _after_edit($id) {
+	public function _after_edit() {
 		$id = I('post.id');
 		foreach ($_POST['xbianhao'] as $keys => $v) {
 			$xdata[] = array(

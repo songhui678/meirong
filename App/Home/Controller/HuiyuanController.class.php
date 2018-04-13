@@ -92,7 +92,7 @@ class HuiyuanController extends CommonController {
 
 	}
 
-	public function _after_edit($id) {
+	public function _after_edit() {
 
 	}
 
