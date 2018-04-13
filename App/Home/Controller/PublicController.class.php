@@ -22,7 +22,7 @@ class PublicController extends BaseController {
 		if (!$rs['status']) {
             $this->error($rs['data']);
         }
-		Redirect("http://".$_SERVER['SERVER_NAME'].__ROOT__);
+		Redirect("http://".$_SERVER['SERVER_NAME']);
 		//$this->success('登录成功，正在跳转...',__ROOT__,0);
 	  }
 	  else{

@@ -58,7 +58,7 @@ if(isset($_REQUEST['shenhe']) && $_REQUEST['shenhe'] != ''){$map['shenhe'] =arra
 	return $data;
   }
 	
-   public function _after_add($id){
+   public function _after_add(){
     
    }
 

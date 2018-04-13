@@ -49,7 +49,7 @@ class HuifangController extends CommonController{
 	return $data;
   }
 	
-   public function _after_add($id){
+   public function _after_add(){
     
    }
 
@@ -66,7 +66,7 @@ class HuifangController extends CommonController{
 
   }
   
-    public function _after_edit($id){
+    public function _after_edit(){
      
    }
 

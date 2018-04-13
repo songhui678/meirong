@@ -2,8 +2,8 @@
 return array( 
 
 
-    'URL_MODEL'   =>  0,       // URL访问模式,可选参数0、1、2、3,代表以下四种模式：
-	
+    'URL_MODEL'   => 0,       // URL访问模式,可选参数0、1、2、3,代表以下四种模式：
+'__MODULE__'=>'/index.php/Home',	
     'URL_CASE_INSENSITIVE' =>true, //表示URL访问不区分大小写
    
 	//权限验证设置
@@ -29,7 +29,7 @@ return array(
 	'UPLOAD_EXTS'=>array('jpg','gif','png','jpeg','txt','doc','docx','xls','xlsx','ppt','pptx','pdf','rar','zip','wps','wpt','dot','rtf','dps','dpt','pot','pps','et','ett','xlt','mp3','mid','wav','wma'),// 设置附件上传类型 
 	'UPLOAD_SAVEPATH'=>'./Public/',
 	
-	'URL_ROUTER_ON'   		=> true, 
+	'URL_ROUTER_ON'   		=>true, 
 	'URL_ROUTE_RULES' 		=> array( 			//定义路由规则
 		'api/:token'        => 'Home/weixin/index',
         'news/:id\d'        => 'Member/index/news_detail',		

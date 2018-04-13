@@ -1,0 +1,178 @@
+[ 2018-04-11T19:31:55+08:00 ] 117.136.0.182 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_news` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_news` ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: title /home/www/meirong/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_huiyuan` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_zijin` [ RunTime:0.0004s ]
+SQL: SELECT SUM(xianjin) AS tp_sum FROM `xy_zijin` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(pos) AS tp_sum FROM `xy_zijin` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(yue) AS tp_sum FROM `xy_zijin` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_ticheng` [ RunTime:0.0004s ]
+SQL: SELECT SUM(jine) AS tp_sum FROM `xy_ticheng` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2018-04-11T19:34:48+08:00 ] 117.136.0.182 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_news` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_news` ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: title /home/www/meirong/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_huiyuan` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_zijin` [ RunTime:0.0004s ]
+SQL: SELECT SUM(xianjin) AS tp_sum FROM `xy_zijin` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(pos) AS tp_sum FROM `xy_zijin` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(yue) AS tp_sum FROM `xy_zijin` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_ticheng` [ RunTime:0.0003s ]
+SQL: SELECT SUM(jine) AS tp_sum FROM `xy_ticheng` WHERE ( `addtime` >= '2018-04-11 00:00:00' AND `addtime` <= '2018-04-11 59:59:59'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-04-11T19:34:52+08:00 ] 117.136.0.182 /index.php?m=Admin&c=index&a=yuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xy_yuyue` ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_yuyue` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Admin/df2690a449ea8c5fbc280679f4ebd9b1.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-04-11T19:35:08+08:00 ] 117.136.0.182 /index.php?m=Admin&c=index&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `xy_ticheng` [ RunTime:0.0005s ]
+SQL: SELECT sum(jine) as count,`juname` FROM `xy_ticheng` WHERE ( addtime like '%2018-04%' ) GROUP BY juid ORDER BY count desc LIMIT 20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_zijin` [ RunTime:0.0004s ]
+SQL: SELECT sum(jine) as count,`shopid` FROM `xy_zijin` WHERE ( addtime like '%2018-04%' and type<>'充值' and type<>'退款' ) GROUP BY shopid ORDER BY count desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2018-04-11T19:35:13+08:00 ] 117.136.0.182 /index.php?m=Admin&c=index&a=tousu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `xy_tousu` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: p /home/www/meirong/App/Admin/Controller/IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `xy_tousu` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_tousu` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Admin/Controller/IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-04-11T19:35:17+08:00 ] 117.136.0.182 /index.php?m=Admin&c=index&a=pingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `xy_pingjia` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xy_pingjia` ORDER BY id desc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_pingjia` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Admin/3dcc23e2617060b83e0fc85de83eccff.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+

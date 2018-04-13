@@ -54,7 +54,8 @@ class ChukuController extends CommonController{
 	  return $data;
   }
 	
-   public function _after_add($id){
+   public function _after_add(){
+$id = I('get.id');
     foreach ($_POST['xbianhao'] as $keys=>$v) {
 		 $xdata[]=array(    
 		                    'bianhao'=>$_POST['xbianhao'][$keys],
@@ -99,7 +100,7 @@ class ChukuController extends CommonController{
 
   }
   
-    public function _after_edit($id){
+    public function _after_edit(){
      $id=I('post.id');
      foreach ($_POST['xbianhao'] as $keys=>$v) {
 		 $xdata[]=array(    

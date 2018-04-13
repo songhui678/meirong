@@ -48,7 +48,7 @@ class YuyueController extends CommonController{
 
   }
 	
-   public function _after_add($id){
+   public function _after_add(){
     
    }
 
@@ -65,7 +65,7 @@ class YuyueController extends CommonController{
 
   }
   
-    public function _after_edit($id){
+    public function _after_edit(){
      
    }
 

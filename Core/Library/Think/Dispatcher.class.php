@@ -189,12 +189,14 @@ class Dispatcher {
 	            define('PHP_FILE',_PHP_FILE_);
 	        }
 	        // 当前应用地址
-	        define('__APP__',strip_tags(PHP_FILE));
+	     //   define('__APP__',strip_tags(PHP_FILE));
+	define('__APP__',"index.php");
 	    }
         // 模块URL地址
         $moduleName    =   defined('MODULE_ALIAS')? MODULE_ALIAS : MODULE_NAME;
         define('__MODULE__',(defined('BIND_MODULE') || !C('MULTI_MODULE'))? __APP__ : __APP__.'/'.($urlCase ? strtolower($moduleName) : $moduleName));
-
+//var_dump(strtolower($moduleName));exit;
+define('__MODULE__',"index.php/".strtolower($moduleName));
         if('' != $_SERVER['PATH_INFO'] && (!C('URL_ROUTER_ON') ||  !Route::check()) ){   // 检测路由规则 如果没有则按默认规则调度URL
             Hook::listen('path_info');
             // 检查禁止访问的URL后缀

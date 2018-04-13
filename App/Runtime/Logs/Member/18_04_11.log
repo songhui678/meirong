@@ -1,0 +1,370 @@
+[ 2018-04-11T19:32:09+08:00 ] 117.136.0.182 /index.php?m=Member&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+
+[ 2018-04-11T19:32:10+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-04-11T19:32:20+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE (   (kahao='13718794630' or dianhua='13718794630') and mima='123' and status=1  )  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `xy_huiyuan` WHERE (   (kahao='13718794630' or dianhua='13718794630') and mima='123' and status=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `shopid` FROM `xy_huiyuan` WHERE (   (kahao='13718794630' or dianhua='13718794630') and mima='123' and status=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `xy_huiyuan` SET `updatetime`='2018-04-11 19:32:20' WHERE `id` = 3 [ RunTime:0.0268s ]
+
+[ 2018-04-11T19:32:21+08:00 ] 117.136.0.182 /index.php?m=Member&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_news` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_news` ORDER BY id desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined index: title /home/www/meirong/App/Runtime/Cache/Member/965a2fd2aa3b34d12ce5f87cdf35d9ca.php 第 8 行.
+NOTIC: [8] Undefined index: truename /home/www/meirong/App/Runtime/Cache/Member/965a2fd2aa3b34d12ce5f87cdf35d9ca.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-04-11T19:32:26+08:00 ] 117.136.0.182 /index.php?m=Member&c=Index&a=yuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map /home/www/meirong/App/Member/Controller/IndexController.class.php 第 292 行.
+NOTIC: [8] Undefined index: p /home/www/meirong/App/Member/Controller/IndexController.class.php 第 292 行.
+SQL: SELECT * FROM `xy_guwen` WHERE (  status=1 ) ORDER BY manyi desc LIMIT 0,10   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /home/www/meirong/App/Member/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_guwen` WHERE (  status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_guwen` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Member/72d65f44cf65426054b2de603441d061.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_files` WHERE `attid` = 1437471519 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-04-11T19:32:31+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=yuyue&shopid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: p /home/www/meirong/App/Member/Controller/IndexController.class.php 第 292 行.
+SQL: SELECT * FROM `xy_guwen` WHERE (  status=1 and shopid=2  ) ORDER BY manyi desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_guwen` WHERE (  status=1 and shopid=2  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_guwen` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Member/72d65f44cf65426054b2de603441d061.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_files` WHERE `attid` = 1437471519 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-04-11T19:32:34+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=yuyue_add&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0006s ]
+SQL: SELECT `uid` FROM `xy_guwen` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `gonghao` FROM `xy_guwen` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: title /home/www/meirong/App/Runtime/Cache/Member/b08751fdc67542cd825a1cd9befdc632.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-04-11T19:33:08+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=yuyue_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+
+[ 2018-04-11T19:33:12+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=yuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map /home/www/meirong/App/Member/Controller/IndexController.class.php 第 292 行.
+NOTIC: [8] Undefined index: p /home/www/meirong/App/Member/Controller/IndexController.class.php 第 292 行.
+SQL: SELECT * FROM `xy_guwen` WHERE (  status=1 ) ORDER BY manyi desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: map /home/www/meirong/App/Member/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_guwen` WHERE (  status=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_guwen` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Member/72d65f44cf65426054b2de603441d061.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_files` WHERE `attid` = 1437471519 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-04-11T19:33:14+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=yuyue_add&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0010s ]
+SQL: SELECT `uid` FROM `xy_guwen` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `gonghao` FROM `xy_guwen` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: title /home/www/meirong/App/Runtime/Cache/Member/b08751fdc67542cd825a1cd9befdc632.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2018-04-11T19:33:29+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=yuyue_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xy_yuyue` (`yytime`,`juid`,`shopid`,`hid`,`xingming`,`kahao`,`addtime`,`juname`,`title`) VALUES (' 08:00:00','35','2','3','宋辉','20180323','2018-04-11 19:33:14','王渺渺','做面部护理') [ RunTime:1.0268s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0006s ]
+SQL: UPDATE `xy_guwen` SET `yycs`=yycs+1 WHERE `uid` = 35 [ RunTime:0.0559s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0007s ]
+SQL: SELECT `phone` FROM `xy_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0014s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] file_get_contents(WWWWWWW): failed to open stream: No such file or directory /home/www/meirong/App/Common/Common/function.php 第 346 行.
+SQL: SHOW COLUMNS FROM `xy_smss` [ RunTime:0.0003s ]
+SQL: INSERT INTO `xy_smss` (`phone`,`content`,`jieguo`,`url`,`addtime`,`ip`) VALUES ('18961314946','【CRM】亲:会员宋辉预约了您，顾客将在 08:00:00到店，请做好准备！ 美容院-总部 退订回复TD','成功','index.php?m=Member&c=Index&a=yuyue_add','2018-04-11 19:33:28','117.136.0.182') [ RunTime:0.9297s ]
+
+[ 2018-04-11T19:33:32+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=yuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map /home/www/meirong/App/Member/Controller/IndexController.class.php 第 292 行.
+NOTIC: [8] Undefined index: p /home/www/meirong/App/Member/Controller/IndexController.class.php 第 292 行.
+SQL: SELECT * FROM `xy_guwen` WHERE (  status=1 ) ORDER BY manyi desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: map /home/www/meirong/App/Member/Controller/IndexController.class.php 第 293 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_guwen` WHERE (  status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_guwen` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Member/72d65f44cf65426054b2de603441d061.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_files` WHERE `attid` = 1437471519 ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-04-11T19:33:37+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=pingjia&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0006s ]
+SQL: SELECT `uid` FROM `xy_guwen` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `gonghao` FROM `xy_guwen` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_pingjia` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_pingjia` WHERE `juid` = 35 ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: title /home/www/meirong/App/Runtime/Cache/Member/8c3c16221876a9161a52699fd0b8b40d.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_ticheng` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_ticheng` WHERE `hid` = 3 AND `juid` = 35 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-04-11T19:34:12+08:00 ] 117.136.0.182 /index.php?m=Member&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE (   (kahao='13718794630' or dianhua='13718794630') and mima='123' and status=1  )  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `xy_huiyuan` WHERE (   (kahao='13718794630' or dianhua='13718794630') and mima='123' and status=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `shopid` FROM `xy_huiyuan` WHERE (   (kahao='13718794630' or dianhua='13718794630') and mima='123' and status=1  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `xy_huiyuan` SET `updatetime`='2018-04-11 19:34:12' WHERE `id` = 3 [ RunTime:0.0312s ]
+
+[ 2018-04-11T19:34:13+08:00 ] 117.136.0.182 /index.php?m=Member&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_news` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_news` ORDER BY id desc LIMIT 10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: title /home/www/meirong/App/Runtime/Cache/Member/965a2fd2aa3b34d12ce5f87cdf35d9ca.php 第 8 行.
+NOTIC: [8] Undefined index: truename /home/www/meirong/App/Runtime/Cache/Member/965a2fd2aa3b34d12ce5f87cdf35d9ca.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+

@@ -372,7 +372,7 @@ class BaseController extends Controller {
 
 	}
 	
-	public function _fenxi($fd,$ft,$type,$map) {
+	public function _fenxi($fd,$ft,$type,$map='') {
 		import("Org.Util.Chart");
         $chart = new \Chart;
 		$model = D($this->dbname);

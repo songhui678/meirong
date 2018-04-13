@@ -1,0 +1,1778 @@
+[ 2018-04-13T19:43:16+08:00 ] 106.11.225.120 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-04-13T19:43:16+08:00 ] 106.11.227.222 /index.php?m=Home&c=public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2018-04-13T22:44:09+08:00 ] 110.96.109.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+
+[ 2018-04-13T22:44:10+08:00 ] 110.96.109.76 /index.php?m=Home&c=public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-04-13T22:44:13+08:00 ] 110.96.109.76 /index.php?m=Home&c=Public&a=Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` WHERE `username` = 'admin' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `iszb` FROM `xy_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `xy_user` SET `logintime`='2018-04-13 22:44:12',`loginip`='110.96.109.76',`logins`=logins+1,`update_time`='1523630652' WHERE `id` = 1 [ RunTime:0.9461s ]
+SQL: SHOW COLUMNS FROM `xy_log` [ RunTime:0.0005s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','登录成功！','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36','index.php?m=Home&c=Public&a=Login','2018-04-13 22:44:13','110.96.109.76') [ RunTime:0.0277s ]
+
+[ 2018-04-13T22:44:14+08:00 ] 110.96.109.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` WHERE `update_time` > 1523630054 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xy_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=0 ) ORDER BY sort  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=160 ) ORDER BY sort  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=161 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=161 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=218 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=218 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=162 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=162 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=163 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=163 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=164 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=164 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=165 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=165 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=166 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=166 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=177 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=177 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=176 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=176 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=175 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=175 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=172 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=172 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=168 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=168 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=1 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=108 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=108 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=109 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=109 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=124 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=124 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=119 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=119 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=132 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=132 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=181 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=181 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=131 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=131 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=180 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=180 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=8 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=125 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=125 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=214 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=107 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=107 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=112 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=112 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=207 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=207 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=198 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=198 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=135 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=158 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=158 ) ORDER BY sort  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=136 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=136 ) ORDER BY sort  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=142 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=142 ) ORDER BY sort  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=159 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=159 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=147 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=147 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=199 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=199 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=149 ) ORDER BY sort  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=115 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=115 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=209 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=209 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=191 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=191 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=190 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=190 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=210 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=210 ) ORDER BY sort  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=150 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=150 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=154 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=154 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=202 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=202 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=113 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=118 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=118 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=114 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=114 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=183 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=183 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=215 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=215 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=217 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=217 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=110 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=111 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=111 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=116 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=116 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=117 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=117 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=192 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=192 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=193 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=193 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=216 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=216 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=189 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=189 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 233 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=7 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=9 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=22 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 254 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=24 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=24 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=21 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=21 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=13 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/meirong/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 249 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=179 ) ORDER BY sort  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-04-13T22:44:15+08:00 ] 110.96.109.76 /index.php?m=Home&c=index&a=main&_=1523630656415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_weiset` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_weiset` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_files` WHERE `attid` = 1435386266 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `dizhi` FROM `xy_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `dianhua` FROM `xy_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_huiyuan` WHERE ( addtime like '%2018-04-13%' and id<>0  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_zijin` [ RunTime:0.0072s ]
+SQL: SELECT SUM(xianjin) AS tp_sum FROM `xy_zijin` WHERE ( addtime like '%2018-04-13%'  and id<>0  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pos) AS tp_sum FROM `xy_zijin` WHERE ( addtime like '%2018-04-13%'  and id<>0  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(yue) AS tp_sum FROM `xy_zijin` WHERE ( addtime like '%2018-04-13%'  and id<>0  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(song) AS tp_sum FROM `xy_zijin` WHERE ( addtime like '%2018-04-13%'  and id<>0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jian) AS tp_sum FROM `xy_zijin` WHERE ( addtime like '%2018-04-13%'  and id<>0  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE ( shengri like '%-04-%' or shengri like '%-05-%' ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `updatetime` <= '2018-03-13' LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_news` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `xy_news` ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE ( id<>0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-04-13T22:44:26+08:00 ] 110.96.109.76 /index.php/home/huiyuan/add?_=1523630667054
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: id /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 4 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 16 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 22 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 25 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 26 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 26 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 26 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 27 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 27 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 28 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 28 行.
+SQL: SHOW COLUMNS FROM `xy_dengji` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_dengji`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 29 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 29 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 29 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 29 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 29 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 29 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 30 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 30 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 31 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 32 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 32 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 33 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 34 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/6999de3bc50ee1596f83ed483819e7e8.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-04-13T22:44:27+08:00 ] 110.96.109.76 /index.php/Home/Public/attfile/attid/1523630666/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_files` WHERE ( attid=1523630666 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-04-13T22:44:30+08:00 ] 110.96.109.76 /index.php/home/huiyuan/index?_=1523630671837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_huiyuan` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `dengji` FROM `xy_huiyuan` WHERE `dengji` <> ''  [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `zhuangtai` FROM `xy_huiyuan` WHERE `zhuangtai` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-04-13T22:44:48+08:00 ] 110.96.109.76 /index.php/Home/Huiyuan/lock/id/2/navTabId/Huiyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xy_huiyuan` SET `attid`='1437470964',`shengri`='2015-07-21',`sfz`='1111',`dengji`='普通会员',`dianhua`='15905120019',`shopid`='2',`sex`='男',`mima`='789456',`xingming`='张三',`kahao`='881531',`status`='0',`updatetime`='2015-07-21 17:45:31',`uuname`='',`uuid`='0',`addtime`='2015-07-21 17:44:25',`uname`='张玉龙',`uid`='24',`beizhu`='',`dizhi`='111',`juname`='',`juid`='0',`tjr`='',`jztime`='0000-00-00',`jici`='0',`jine`='5000.00',`xiaofei`='0.00',`jifen`='200',`zhuangtai`='正常' WHERE `id` = 2 [ RunTime:0.0328s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0006s ]
+SQL: UPDATE `xy_user` SET `update_time`='1523630687' WHERE `id` = 1 [ RunTime:0.0321s ]
+SQL: SHOW COLUMNS FROM `xy_log` [ RunTime:0.0005s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','锁定2','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36','index.php?m=Home&c=Huiyuan&a=lock','2018-04-13 22:44:47','110.96.109.76') [ RunTime:0.9305s ]
+
+[ 2018-04-13T22:44:49+08:00 ] 110.96.109.76 /index.php/home/huiyuan/index?_=1523630689987
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_huiyuan` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `dengji` FROM `xy_huiyuan` WHERE `dengji` <> ''  [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `zhuangtai` FROM `xy_huiyuan` WHERE `zhuangtai` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-04-13T22:44:49+08:00 ] 110.96.109.76 /index.php/home/huiyuan/index?_=1523630689983
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_huiyuan` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `dengji` FROM `xy_huiyuan` WHERE `dengji` <> ''  [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `zhuangtai` FROM `xy_huiyuan` WHERE `zhuangtai` <> ''  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-04-13T22:44:59+08:00 ] 110.96.109.76 /index.php/Home/Huiyuan/del/navTabId/Huiyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0003s ]
+SQL: UPDATE `xy_files` SET `attid`='0' WHERE `attid` = 1437470964 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_files` WHERE ( attid=0 or status=0 )  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/meirong/App/Common/Controller/BaseController.class.php 第 362 行.
+SQL: DELETE FROM `xy_files` WHERE ( attid=0 or status=0 ) [ RunTime:0.0002s ]
+SQL: DELETE FROM `xy_huiyuan` WHERE ( status=0 ) [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0006s ]
+SQL: UPDATE `xy_user` SET `update_time`='1523630699' WHERE `id` = 1 [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `xy_log` [ RunTime:0.0005s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','清理1条无用的记录','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36','index.php?m=Home&c=Huiyuan&a=del','2018-04-13 22:44:59','110.96.109.76') [ RunTime:0.0222s ]
+
+[ 2018-04-13T22:45:00+08:00 ] 110.96.109.76 /index.php/home/huiyuan/index?_=1523630701066
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_huiyuan` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `dengji` FROM `xy_huiyuan` WHERE `dengji` <> ''  [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `zhuangtai` FROM `xy_huiyuan` WHERE `zhuangtai` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-04-13T22:45:00+08:00 ] 110.96.109.76 /index.php/home/huiyuan/index?_=1523630701069
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_huiyuan` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `dengji` FROM `xy_huiyuan` WHERE `dengji` <> ''  [ RunTime:0.0001s ]
+SQL: SELECT DISTINCT  `zhuangtai` FROM `xy_huiyuan` WHERE `zhuangtai` <> ''  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 15 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: dengji /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+NOTIC: [8] Undefined index: zhuangtai /home/www/meirong/App/Runtime/Cache/Home/92fce47593479689d64a333da61bd212.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-04-13T22:45:07+08:00 ] 110.96.109.76 /index.php/home/ka/index?_=1523630708268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: numPerPage /home/www/meirong/App/Runtime/Cache/Home/47a3067f458f8be82029bdc2aada433c.php 第 4 行.
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/47a3067f458f8be82029bdc2aada433c.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/47a3067f458f8be82029bdc2aada433c.php 第 17 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/47a3067f458f8be82029bdc2aada433c.php 第 18 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/47a3067f458f8be82029bdc2aada433c.php 第 19 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/47a3067f458f8be82029bdc2aada433c.php 第 20 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/47a3067f458f8be82029bdc2aada433c.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-04-13T22:45:10+08:00 ] 110.96.109.76 /index.php/home/sale/index?_=1523630711529
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: numPerPage /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 4 行.
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 17 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 18 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 19 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-04-13T22:46:24+08:00 ] 110.96.109.76 /index.php/Home/Huiyuan/edit/id/4/navTabId/Huiyuan?_=1523630785566
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `xy_dengji` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xy_dengji`  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+ERR: Too few arguments to function Home\Controller\HuiyuanController::_after_edit(), 0 passed and exactly 1 expected
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/www/meirong/Core/Library/Think/View.class.php:95) /home/www/meirong/Core/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/www/meirong/Core/Library/Think/View.class.php:95) /home/www/meirong/Core/Library/Think/Think.class.php 第 230 行.
+
+[ 2018-04-13T22:46:25+08:00 ] 110.96.109.76 /index.php/Home/Public/attfile/attid/1523369419/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_files` WHERE ( attid=1523369419 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-04-13T22:46:32+08:00 ] 110.96.109.76 /index.php/Home/Public/attfile/attid/1523369419/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_files` WHERE ( attid=1523369419 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-04-13T22:46:34+08:00 ] 110.96.109.76 /index.php/Home/Huiyuan/edit/id/3/navTabId/Huiyuan?_=1523630795337
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `xy_dengji` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_dengji`  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+ERR: Too few arguments to function Home\Controller\HuiyuanController::_after_edit(), 0 passed and exactly 1 expected
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/www/meirong/Core/Library/Think/View.class.php:95) /home/www/meirong/Core/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/www/meirong/Core/Library/Think/View.class.php:95) /home/www/meirong/Core/Library/Think/Think.class.php 第 230 行.
+
+[ 2018-04-13T22:46:35+08:00 ] 110.96.109.76 /index.php/Home/Public/attfile/attid/1521820554/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_files` WHERE ( attid=1521820554 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-04-13T22:46:42+08:00 ] 110.96.109.76 /index.php/Home/Public/attfile/attid/1521820554/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_files` WHERE ( attid=1521820554 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.919926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.919943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-04-13T22:46:57+08:00 ] 110.96.109.76 /index.php/Home/Sale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE ( `kahao` = '20180318' OR `dianhua` = '20180318' ) AND `zhuangtai` = '正常' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: numPerPage /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-04-13T22:47:12+08:00 ] 110.96.109.76 /index.php/Home/Sale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE ( `kahao` = '20180323	' OR `dianhua` = '20180323	' ) AND `zhuangtai` = '正常' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: numPerPage /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-04-13T22:47:19+08:00 ] 110.96.109.76 /index.php/Home/Sale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `xy_huiyuan` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xy_huiyuan` WHERE ( `kahao` = '20180323' OR `dianhua` = '20180323' ) AND `zhuangtai` = '正常' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: numPerPage /home/www/meirong/App/Runtime/Cache/Home/157051d11dce6cfba3b977b145864a2e.php 第 4 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_dengji` [ RunTime:0.0003s ]
+SQL: SELECT `zhekou` FROM `xy_dengji` WHERE `title` = '普通会员' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `bili` FROM `xy_dengji` WHERE `title` = '普通会员' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-04-13T22:47:32+08:00 ] 110.96.109.76 /index.php/home/yuyue/index?_=1523630852994
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_yuyue` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_yuyue` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-04-13T22:47:39+08:00 ] 110.96.109.76 /index.php/Home/Yuyue/edit/id/4/navTabId/Yuyue?_=1523630860860
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: attid /home/www/meirong/App/Home/Controller/YuyueController.class.php 第 60 行.
+SQL: SELECT * FROM `xy_yuyue` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-04-13T22:48:04+08:00 ] 110.96.109.76 /index.php/Home/Yuyue/add/navTabId/Yuyue?_=1523630885125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined variable: id /home/www/meirong/App/Runtime/Cache/Home/37b6e8cc51d8f5f6e38e63727e7cacf2.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/37b6e8cc51d8f5f6e38e63727e7cacf2.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-04-13T22:48:10+08:00 ] 110.96.109.76 /index.php/Home/Yuyue/add/navTabId/Yuyue?_=1523630891362
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined variable: id /home/www/meirong/App/Runtime/Cache/Home/37b6e8cc51d8f5f6e38e63727e7cacf2.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/37b6e8cc51d8f5f6e38e63727e7cacf2.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-04-13T22:48:14+08:00 ] 110.96.109.76 /index.php/Home/Yuyue/add/navTabId/Yuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0006s ]
+SQL: INSERT INTO `xy_yuyue` (`id`,`content`,`status`,`addtime`) VALUES ('0','321','1','2018-04-13 22:48:14') [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0006s ]
+SQL: UPDATE `xy_user` SET `update_time`='1523630894' WHERE `id` = 1 [ RunTime:0.0235s ]
+SQL: SHOW COLUMNS FROM `xy_log` [ RunTime:0.0005s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','新增成功6','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36','index.php?m=Home&c=Yuyue&a=add','2018-04-13 22:48:14','110.96.109.76') [ RunTime:0.0227s ]
+
+[ 2018-04-13T22:48:15+08:00 ] 110.96.109.76 /index.php/home/yuyue/index?_=1523630896068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_yuyue` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_yuyue` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-04-13T22:48:29+08:00 ] 110.96.109.76 /index.php/Home/Yuyue/lock/id/6/navTabId/Yuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `xy_yuyue` SET `shopid`='0',`addtime`='2018-04-13 22:48:14',`uuid`='0',`uuname`='',`updatetime`='0000-00-00 00:00:00',`status`='0',`juid`='0',`juname`='',`hid`='0',`xingming`='',`kahao`='',`title`='',`yytime`='0000-00-00 00:00:00',`content`='321' WHERE `id` = 6 [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0005s ]
+SQL: UPDATE `xy_user` SET `update_time`='1523630906' WHERE `id` = 1 [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `xy_log` [ RunTime:1.8813s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','锁定6','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36','index.php?m=Home&c=Yuyue&a=lock','2018-04-13 22:48:26','110.96.109.76') [ RunTime:1.0895s ]
+
+[ 2018-04-13T22:48:30+08:00 ] 110.96.109.76 /index.php/home/yuyue/index?_=1523630911041
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_yuyue` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_yuyue` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-04-13T22:48:30+08:00 ] 110.96.109.76 /index.php/home/yuyue/index?_=1523630911044
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_yuyue` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_yuyue` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2018-04-13T22:48:39+08:00 ] 110.96.109.76 /index.php/Home/Yuyue/del/navTabId/Yuyue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE ( status=0 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: attid /home/www/meirong/App/Common/Controller/BaseController.class.php 第 354 行.
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0003s ]
+SQL: UPDATE `xy_files` SET `attid`='0' WHERE `attid` = null [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_files` WHERE ( attid=0 or status=0 )  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/meirong/App/Common/Controller/BaseController.class.php 第 362 行.
+SQL: DELETE FROM `xy_files` WHERE ( attid=0 or status=0 ) [ RunTime:0.0002s ]
+SQL: DELETE FROM `xy_yuyue` WHERE ( status=0 ) [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0010s ]
+SQL: UPDATE `xy_user` SET `update_time`='1523630918' WHERE `id` = 1 [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `xy_log` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','清理1条无用的记录','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36','index.php?m=Home&c=Yuyue&a=del','2018-04-13 22:48:38','110.96.109.76') [ RunTime:0.9432s ]
+
+[ 2018-04-13T22:48:42+08:00 ] 110.96.109.76 /index.php/home/yuyue/index?_=1523630921000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_yuyue` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_yuyue` WHERE `shopid` <> ''  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.913363s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.913391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2018-04-13T22:48:42+08:00 ] 110.96.109.76 /index.php/home/yuyue/index?_=1523630920997
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_yuyue` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_yuyue` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_yuyue` [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_yuyue` WHERE `shopid` <> ''  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/62fc04a51d08d5ad881c2cf1f79a9a5e.php 第 16 行.
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-04-13T22:48:46+08:00 ] 110.96.109.76 /index.php/home/pingjia/index?_=1523630927111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `xy_pingjia` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_pingjia` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: numPerPage /home/www/meirong/App/Common/Controller/BaseController.class.php 第 194 行.
+SQL: SHOW COLUMNS FROM `xy_pingjia` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_pingjia` WHERE `shopid` <> ''  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 16 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 15 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 16 行.
+NOTIC: [8] Undefined variable: list /home/www/meirong/App/Runtime/Cache/Home/545b13492ffc7e83ea29307333216c7f.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-04-13T22:48:49+08:00 ] 110.96.109.76 /index.php/Home/Pingjia/add/navTabId/Pingjia?_=1523630930431
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined variable: id /home/www/meirong/App/Runtime/Cache/Home/d264a7b6669123c4c9d708cd9c5a4490.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+ERR: Too few arguments to function Home\Controller\PingjiaController::_after_add(), 0 passed and exactly 1 expected
+
+[ 2018-04-13T22:48:54+08:00 ] 110.96.109.76 /index.php/home/guwen/index?_=1523630935703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_guwen` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_guwen` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_guwen` [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `shopid` FROM `xy_guwen` WHERE `shopid` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/8cb9676e42ef311b14b75a0721cdc2de.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xy_shop` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xy_shop`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/8cb9676e42ef311b14b75a0721cdc2de.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/8cb9676e42ef311b14b75a0721cdc2de.php 第 15 行.
+NOTIC: [8] Undefined index: shopid /home/www/meirong/App/Runtime/Cache/Home/8cb9676e42ef311b14b75a0721cdc2de.php 第 14 行.
+NOTIC: [8] Undefined index: level /home/www/meirong/App/Runtime/Cache/Home/8cb9676e42ef311b14b75a0721cdc2de.php 第 15 行.
+SQL: SELECT `title` FROM `xy_shop` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2018-04-13T22:48:59+08:00 ] 110.96.109.76 /index.php/Home/Guwen/add/navTabId/Guwen?_=1523630940404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined variable: id /home/www/meirong/App/Runtime/Cache/Home/945bd9a4c2839183afd6937dc1585e34.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/945bd9a4c2839183afd6937dc1585e34.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/945bd9a4c2839183afd6937dc1585e34.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/945bd9a4c2839183afd6937dc1585e34.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/945bd9a4c2839183afd6937dc1585e34.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/945bd9a4c2839183afd6937dc1585e34.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/945bd9a4c2839183afd6937dc1585e34.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+ERR: Too few arguments to function Home\Controller\GuwenController::_after_add(), 0 passed and exactly 1 expected
+
+[ 2018-04-13T22:49:00+08:00 ] 110.96.109.76 /index.php/Home/Public/attfile/attid/1523630939/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `xy_files` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_files` WHERE ( attid=1523630939 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-04-13T22:49:12+08:00 ] 110.96.109.76 /index.php/home/news/index?_=1523630953631
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `xy_news` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_news` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_news` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_news` [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `fenlei` FROM `xy_news` WHERE `fenlei` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/e050d5619624146a648edb153a9a4fd8.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/e050d5619624146a648edb153a9a4fd8.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/e050d5619624146a648edb153a9a4fd8.php 第 9 行.
+NOTIC: [8] Undefined index: fenlei /home/www/meirong/App/Runtime/Cache/Home/e050d5619624146a648edb153a9a4fd8.php 第 9 行.
+NOTIC: [8] Undefined index: fenlei /home/www/meirong/App/Runtime/Cache/Home/e050d5619624146a648edb153a9a4fd8.php 第 9 行.
+NOTIC: [8] Undefined index: fenlei /home/www/meirong/App/Runtime/Cache/Home/e050d5619624146a648edb153a9a4fd8.php 第 9 行.
+NOTIC: [8] Undefined index: fenlei /home/www/meirong/App/Runtime/Cache/Home/e050d5619624146a648edb153a9a4fd8.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-04-13T22:49:14+08:00 ] 110.96.109.76 /index.php/Home/News/add/navTabId/News?_=1523630955266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8] Undefined variable: id /home/www/meirong/App/Runtime/Cache/Home/1863b565f7a83375fc51caad9630b0c8.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/1863b565f7a83375fc51caad9630b0c8.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/1863b565f7a83375fc51caad9630b0c8.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/1863b565f7a83375fc51caad9630b0c8.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/1863b565f7a83375fc51caad9630b0c8.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/1863b565f7a83375fc51caad9630b0c8.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+ERR: Too few arguments to function Home\Controller\NewsController::_after_add(), 0 passed and exactly 1 expected
+
+[ 2018-04-13T22:49:20+08:00 ] 110.96.109.76 /index.php/home/smss/index?_=1523630961579
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `xy_smss` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_smss` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_smss` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xy_smss` [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `jieguo` FROM `xy_smss` WHERE `jieguo` <> ''  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/392b0e0e30a6d7c5b4157c5e1d04b269.php 第 8 行.
+NOTIC: [8] Undefined index: time1 /home/www/meirong/App/Runtime/Cache/Home/392b0e0e30a6d7c5b4157c5e1d04b269.php 第 9 行.
+NOTIC: [8] Undefined index: time2 /home/www/meirong/App/Runtime/Cache/Home/392b0e0e30a6d7c5b4157c5e1d04b269.php 第 9 行.
+NOTIC: [8] Undefined index: jieguo /home/www/meirong/App/Runtime/Cache/Home/392b0e0e30a6d7c5b4157c5e1d04b269.php 第 9 行.
+NOTIC: [8] Undefined index: jieguo /home/www/meirong/App/Runtime/Cache/Home/392b0e0e30a6d7c5b4157c5e1d04b269.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-04-13T22:49:22+08:00 ] 110.96.109.76 /index.php/Home/Smss/add/navTabId/Smss?_=1523630963639
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+ERR: 模板不存在:./App/Home/View/Smss/add.html
+
+[ 2018-04-13T22:49:27+08:00 ] 110.96.109.76 /index.php/home/public/sms?_=1523630967949
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2] file_get_contents(WWWWWWW): failed to open stream: No such file or directory /home/www/meirong/App/Common/Common/function.php 第 346 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2018-04-13T22:49:31+08:00 ] 110.96.109.76 /index.php/home/dengji/index?_=1523630971948
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `xy_dengji` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: order /home/www/meirong/App/Common/Controller/BaseController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: sort /home/www/meirong/App/Common/Controller/BaseController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: pageCurrent /home/www/meirong/App/Common/Controller/BaseController.class.php 第 161 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_dengji` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_dengji` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: keys /home/www/meirong/App/Runtime/Cache/Home/d063c8a1ceda74afc1a61edfc2205444.php 第 8 行.
+NOTIC: [8] Undefined index: b_show /home/www/meirong/App/Runtime/Cache/Home/d063c8a1ceda74afc1a61edfc2205444.php 第 45 行.
+NOTIC: [8] Undefined index: b_show /home/www/meirong/App/Runtime/Cache/Home/d063c8a1ceda74afc1a61edfc2205444.php 第 45 行.
+NOTIC: [8] Undefined index: b_show /home/www/meirong/App/Runtime/Cache/Home/d063c8a1ceda74afc1a61edfc2205444.php 第 45 行.
+NOTIC: [8] Undefined index: b_show /home/www/meirong/App/Runtime/Cache/Home/d063c8a1ceda74afc1a61edfc2205444.php 第 45 行.
+NOTIC: [8] Undefined index: b_show /home/www/meirong/App/Runtime/Cache/Home/d063c8a1ceda74afc1a61edfc2205444.php 第 45 行.
+NOTIC: [8] Undefined index: b_show /home/www/meirong/App/Runtime/Cache/Home/d063c8a1ceda74afc1a61edfc2205444.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-04-13T22:49:33+08:00 ] 110.96.109.76 /index.php/Home/Dengji/add/navTabId/Dengji?_=1523630974789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Constant __MODULE__ already defined /home/www/meirong/Core/Library/Think/Dispatcher.class.php 第 199 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined variable: id /home/www/meirong/App/Runtime/Cache/Home/ff734f2ea4e879dfdbea17c9910e1394.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/ff734f2ea4e879dfdbea17c9910e1394.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/ff734f2ea4e879dfdbea17c9910e1394.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/ff734f2ea4e879dfdbea17c9910e1394.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/ff734f2ea4e879dfdbea17c9910e1394.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/ff734f2ea4e879dfdbea17c9910e1394.php 第 10 行.
+NOTIC: [8] Undefined variable: Rs /home/www/meirong/App/Runtime/Cache/Home/ff734f2ea4e879dfdbea17c9910e1394.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+ERR: Too few arguments to function Home\Controller\DengjiController::_after_add(), 0 passed and exactly 1 expected
+

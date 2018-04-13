@@ -54,7 +54,7 @@ if(isset($_REQUEST['jingban']) && $_REQUEST['jingban'] != ''){$map['jingban'] =a
 	return $data;
   }
 	
-   public function _after_add($id){
+   public function _after_add(){
     
    }
 
