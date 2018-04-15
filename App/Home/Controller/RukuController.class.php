@@ -53,8 +53,9 @@ class RukuController extends CommonController {
 
 	}
 
-	public function _after_add() {
-		$id = I('get.id');
+	public function _after_add($id = 0) {
+
+		$shuliang = 0;
 		foreach ($_POST['xbianhao'] as $keys => $v) {
 			$xdata[] = array(
 				'bianhao' => $_POST['xbianhao'][$keys],
@@ -76,11 +77,13 @@ class RukuController extends CommonController {
 			D('rukus')->add($xdata[$keys]);
 
 		}
+
 		$data['id'] = $id;
 		$data["shuliang"] = $shuliang;
+		$data["shopid"] = session('shopid');
 		$data['title'] = substr($title, 1);
-		M($this->dbname)->save($data);
-
+		// D('ruku')->add($data);
+		M('ruku')->save($data);
 	}
 
 	public function _befor_edit() {
@@ -94,6 +97,7 @@ class RukuController extends CommonController {
 
 	public function _after_edit() {
 		$id = I('post.id');
+		$shuliang = 0;
 		foreach ($_POST['xbianhao'] as $keys => $v) {
 			$xdata[] = array(
 				'id' => $_POST['mid'][$keys],
@@ -126,7 +130,7 @@ class RukuController extends CommonController {
 		$data['id'] = $id;
 		$data["shuliang"] = $shuliang;
 		$data['title'] = substr($title, 1);
-		M($this->dbname)->save($data);
+		M('ruku')->save($data);
 	}
 
 	public function _befor_view($id) {
