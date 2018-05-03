@@ -16,7 +16,7 @@ class RukuController extends CommonController {
 
 	public function _initialize() {
 		parent::_initialize();
-		$this->dbname = CONTROLLER_NAME;
+		$this->dbname = strtolower(CONTROLLER_NAME);
 	}
 
 	function _filter(&$map) {

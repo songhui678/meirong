@@ -16,7 +16,7 @@ class ChukuController extends CommonController {
 
 	public function _initialize() {
 		parent::_initialize();
-		$this->dbname = CONTROLLER_NAME;
+		$this->dbname = strtolower(CONTROLLER_NAME);
 	}
 
 	function _filter(&$map) {
@@ -52,9 +52,9 @@ class ChukuController extends CommonController {
 		return $data;
 	}
 
-	public function _after_add() {
-		$id = I('get.id');
+	public function _after_add($id = 0) {
 		$shuliang = 0;
+		$title = '';
 		foreach ($_POST['xbianhao'] as $keys => $v) {
 			$xdata[] = array(
 				'bianhao' => $_POST['xbianhao'][$keys],
@@ -78,9 +78,12 @@ class ChukuController extends CommonController {
 			D('chukus')->add($xdata[$keys]);
 
 		}
+		// var_dump($shuliang);
+		// var_dump($this->dbname);exit;
 		$data['id'] = $id;
 		$data["shuliang"] = $shuliang;
 		$data['title'] = substr($title, 1);
+
 		M($this->dbname)->save($data);
 	}
 
@@ -97,8 +100,7 @@ class ChukuController extends CommonController {
 
 	}
 
-	public function _after_edit() {
-		$id = I('post.id');
+	public function _after_edit($id = 0) {
 		$shuliang = 0;
 		foreach ($_POST['xbianhao'] as $keys => $v) {
 			$xdata[] = array(
